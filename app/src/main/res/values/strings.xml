@@ -3,4 +3,21 @@
     <string name="tvTitulo">Gestor de Materias</string>
     <string name="btnInsertar">Insertar</string>
     <string name="btnConsultar">Consultar</string>
+    <string name="etNombreMateria">Nombre de la Materia</string>
+    <string name="tvTituloInsertar">Insertar Materia</string>
+    <string name="etProfesorMateria">Profesor que Imparte la Materia</string>
+    <string name="etDescripcionMateria">Descripcion de la Materia</string>
+    <string name="etDiasMateria">Dias de la Materia: Ejemplo Lunes, Martes</string>
+    <string name="tvDiasMateria">Seleccione los dias de la Materia</string>
+    <string name="cbLunes">Lunes</string>
+    <string name="cbMartes">Martes</string>
+    <string name="cbMiercoles">Mirecoles</string>
+    <string name="cbJueves">Jueves</string>
+    <string name="cbViernes">Viernes</string>
+    <string name="btnGuardar">Guardar</string>
+    <string name="tvCargando">Cargando...</string>
+    <string name="tvDetallesTitulo">Detalles de la Materia</string>
+    <string name="btnActualizar">Actualizar</string>
+    <string name="btnEliminar">Eliminar</string>
+    <string name="tvTituloModificar">Modificar Materia</string>
 </resources>

@@ -1,9 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:layout_gravity="center_horizontal"
     tools:context=".InsertarMateriaActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvTituloInsertar"
+        android:textSize="24dp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        style="bold"/>
+
+    <EditText
+        android:id="@+id/etNombreMateria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:hint="@string/etNombreMateria"/>
+
+    <EditText
+        android:id="@+id/etProfesorMateria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_margin="10dp"
+        android:hint="@string/etProfesorMateria"/>
+
+    <EditText
+        android:id="@+id/etDescripcionMateria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_margin="10dp"
+        android:hint="@string/etDescripcionMateria"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvDiasMateria"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        style="bold"/>
+
+    <CheckBox
+        android:id="@+id/cbLunes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cbLunes"/>
+
+    <CheckBox
+        android:id="@+id/cbMartes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cbMartes"/>
+
+    <CheckBox
+        android:id="@+id/cbMiercoles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cbMiercoles"/>
+
+    <CheckBox
+        android:id="@+id/cbJueves"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cbJueves"/>
+
+    <CheckBox
+        android:id="@+id/cbViernes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cbViernes"/>
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnGuardar"/>
+
+</LinearLayout>
